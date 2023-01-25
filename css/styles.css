@@ -75,3 +75,12 @@ font-family: 'Plus Jakarta Sans', sans-serif;
     text-align: center;
     margin-top: 1.5%;
 }
+.flexContainer {
+    display:flex;
+    width: 33%;
+}
+.workGrid {
+    display:grid;
+}
+
+
