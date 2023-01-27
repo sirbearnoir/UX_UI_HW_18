@@ -81,6 +81,19 @@ font-family: 'Plus Jakarta Sans', sans-serif;
 }
 .workGrid {
     display:grid;
+    grid-template-areas:  "D.O.E. Redesign1 D.O.E. Redesign2 D.O.E. Redesign3 D.O.E. Redseign4";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px 250px 250px;
+    
 }
 
+
+@media only screen and (max-width:600){
+    display:flex;
+    width: 100%;
+    grid-template-areas:  "D.O.E. Redesign1 D.O.E. Redesign2 D.O.E. Redesign3 D.O.E. Redseign4";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px 250px 250px;
+    
+}
 
