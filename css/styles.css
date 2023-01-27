@@ -86,14 +86,12 @@ font-family: 'Plus Jakarta Sans', sans-serif;
     grid-template-rows: 250px 250px 250px 250px;
     
 }
+.myWork{
+    text-align: center;
+}
 
 
 @media only screen and (max-width:600){
-    display:flex;
-    width: 100%;
-    grid-template-areas:  "D.O.E. Redesign1 D.O.E. Redesign2 D.O.E. Redesign3 D.O.E. Redseign4";
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 250px 250px 250px 250px;
-    
+  
 }
 
