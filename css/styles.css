@@ -85,13 +85,18 @@ font-family: 'Plus Jakarta Sans', sans-serif;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 250px 250px 250px 250px;
     
+    
 }
 .myWork{
     text-align: center;
 }
 
 
-@media only screen and (max-width:600){
-  
+@media screen and (max-width:600px){
+    .workGrid {
+        display:contents;
+    }
 }
+  
+
 
