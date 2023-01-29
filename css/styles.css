@@ -28,6 +28,7 @@
 footer {
     background-color:#F2CF1D ;
     height: 50px;
+    
 }
 .ul {
     display: inline;
@@ -84,6 +85,8 @@ font-family: 'Plus Jakarta Sans', sans-serif;
     grid-template-areas:  "D.O.E. Redesign1 D.O.E. Redesign2 D.O.E. Redesign3 D.O.E. Redseign4";
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 250px 250px 250px 250px;
+    justify-content: center;
+    
     
     
 }
@@ -91,12 +94,28 @@ font-family: 'Plus Jakarta Sans', sans-serif;
     text-align: center;
 }
 
+.mySkills{
+    flex-flow: wrap;
+    flex-shrink: initial;
+    font-size: small;
+    margin: 150px;
+}
+
 
 @media screen and (max-width:600px){
     .workGrid {
         display:contents;
+        margin-bottom: 200px;
+        
     }
 }
   
+@media only screen and (max-width:600px){
+    .mySkills {
+        display:contents;
+        justify-content: center;
+        width: 100%;
 
+    }
+}
 
